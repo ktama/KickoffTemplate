@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40.775467mm"
+   height="27.3304mm"
+   viewBox="0 0 40.775467 27.3304"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="Fin.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0449705"
+     inkscape:cx="223.92976"
+     inkscape:cy="166.03339"
+     inkscape:window-width="1409"
+     inkscape:window-height="1237"
+     inkscape:window-x="1226"
+     inkscape:window-y="323"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="159.81313"
+       y="391.39859"
+       width="362.68964"
+       height="178.95241"
+       id="rect2" />
+    <rect
+       x="281.34763"
+       y="307.1857"
+       width="0"
+       height="90.911652"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-45.95454,-43.764541)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1"
+       style="white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-22.787724,-67.097186)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:128px;font-family:'Ink Free';-inkscape-font-specification:'Ink Free';text-align:center;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000"
+       x="57.792"
+       y="0"><tspan
+         x="259.94128"
+         y="505.91696"
+         id="tspan1">Fin</tspan></text>
+  </g>
+</svg>

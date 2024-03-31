@@ -1,0 +1,157 @@
+/* @theme confidential */
+
+@import "default";
+
+:root {
+    --main-color: gray;
+}
+
+section * {
+    line-height: 2em;
+}
+
+section header {
+    font-size: 80%;
+    position: absolute;
+    top: 14px;
+    left: 1184px;
+    color: red;
+    border: 2px solid red;
+    padding: 0.15rem
+}
+
+section p>code {
+    background: transparent;
+    font-size: 80%;
+    position: absolute;
+    bottom: 100px;
+}
+
+footer {
+    padding-left: 1000px;
+    background: no-repeat left/100px url("images/logo_black.png");
+}
+
+section::after {
+    font-size: 60%;
+    content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+h2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 20px 40px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 8px double #aaa;
+}
+
+h3 {
+    position: absolute;
+    top: 3em;
+    border-bottom: 2px solid var(--main-color);
+}
+
+section.toc {
+    background: linear-gradient(to right, var(--main-color) 150px, #fff 0px);
+}
+
+section.toc h2 {
+    color: #fff;
+    border: 0;
+}
+
+section.toc a {
+    color: #000;
+}
+
+section.toc li {
+    font-size: 90%;
+}
+
+section.toc>ul {
+    list-style-type: none;
+    position: relative;
+    left: 90px;
+    overflow: hidden;
+}
+
+section.toc>ul ul {
+    list-style-type: decimal;
+}
+
+section.toc>ul ul>li {
+    width: 45%;
+    float: left;
+    clear: left;
+}
+
+section.toc>ul ul>li:nth-child(n+6) {
+    position: relative;
+    top: -11em;
+    left: 50%;
+}
+
+section.toc p {
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    padding-top: 20px;
+    font-size: 90%;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width: 90%;
+    display: table;
+}
+
+thead th {
+    text-align: center !important;
+}
+
+thead tr {
+    background: #eaeaea;
+}
+
+tbody tr:nth-child(2n+1) {
+    background: #fff;
+}
+
+tbody tr:nth-child(2n) {
+    background: #fafafa;
+}
+
+section.bgpage p {
+    background: white;
+    padding: 0.25em;
+}
+
+section.lastpage {
+    background-image: url("./styles/images/Fin.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section.lastpage header {
+    display: none;
+}
+
+section.lastpage h2 {
+    display: none;
+}
+
+
+section.lastpage p {
+    text-align: center;
+    font-size: 200%;
+}
